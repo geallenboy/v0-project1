@@ -115,7 +115,7 @@ export default function WordMatchingGame({
     return (
       <div className="h-full flex items-center justify-center">
         <div className="text-center text-gray-500">
-          <p className="text-xl">请在左侧输入文本并点击"生成单词"按钮开始游戏</p>
+          <p className="text-xl">请在输入文本并点击"生成游戏 "按钮开始游戏</p>
         </div>
       </div>
     )

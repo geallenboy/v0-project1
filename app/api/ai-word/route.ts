@@ -36,7 +36,7 @@ export async function POST(req: Request) {
         });
 
         const assistantResponse = response.data?.choices[0]?.message?.content || "";
-
+        console.log("Assistant response:", assistantResponse);
         // 尝试直接解析响应内容
         try {
             const wordPairs = JSON.parse(assistantResponse);

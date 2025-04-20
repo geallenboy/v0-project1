@@ -45,7 +45,7 @@ export default function InputSection({
               生成中...
             </>
           ) : (
-            "生成单词"
+            "🎮生成游戏"
           )}
         </Button>
       )}

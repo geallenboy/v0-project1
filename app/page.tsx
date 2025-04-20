@@ -42,7 +42,7 @@ export default function Home() {
         },
         body: JSON.stringify({ prompt: input }),
       });
-      
+      console.log("Response from AI API:", response);
       if (!response.ok) {
         throw new Error('API request failed');
       }
